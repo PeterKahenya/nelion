@@ -3,7 +3,7 @@ import os
 from mongoengine import document,fields,connect
 
 MONGO_DB_NAME = 'nelion'
-url="mongodb://172.23.0.3:27017/"+MONGO_DB_NAME
+url="mongodb://172.24.0.3:27017/"+MONGO_DB_NAME
 connect(host=url)
 
 def hash_password(password):

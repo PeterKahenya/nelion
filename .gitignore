@@ -1,2 +1,4 @@
 env/
 .vscode/
+accounts/__pycache__/
+schema/__pycache__/
